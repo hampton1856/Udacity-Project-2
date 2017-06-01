@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+* {
+    font-family: Lato, sans-serif;
+}
+
+div.page-content {
+    width: 960px;
+    margin:auto;
+}
+/* CSS for Header*/
+div.main-title {
+    margin-left: auto;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+header.main-header {
+    border-bottom: 5px solid #7d97ad;
+    margin-bottom: ;
+    align-items: center;
+
+}
+
+div.main-title h1 {
+    font-weight: 100;
+    font-size: 58px;
+    margin-bottom: 30px;
+    color: #2d3c49;
+}
+
+div.main-title h2 {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 0;
+    color: #2d3c49;
+}
+/*CSS for Hero Image*/
+div.hero {
+    max-height: 400px;
+    overflow: hidden;
+}
+div.hero img {
+  width: 100%;
+}
+/* CSS for Featured Work */
+section.featured-work .row {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.work-screenshot {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.featured-work div {
+  text-align:  center;
+}
+
+.featured-work p {
+  margin-top: 0;
+}
+
+.featured-work p a {
+  color: #2d3c49;
+}
+
+a {
+  text-decoration:  none;
+}
+
+a:hover {
+  text-decoration:  underline;
+}
+
+div.work-screenshot img {
+  max-height: 300px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 300;
+  color: #7d97ad;
+  margin: 30px 5px 10px 5px
+}
+
+h3 {
+text-transform: uppercase;
+font-size: 30px;
+margin: 10px 0;
+color: #2d3c49;
+
+}
